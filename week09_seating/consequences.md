@@ -13,4 +13,4 @@ Articles:
 
 [Article 1: Assessing Gender Bias in Machine Translation– A Case Study with Google Translate](https://drive.google.com/file/d/1bnsiq7WczXceS0Jznmpi0EOTPASIRwEU/view?usp=sharing)
 
-[Article 2: The ethics of algorithms_key problems and solutions.pdf](https://drive.google.com/file/d/1vCp6f2mL4_IaDtGQpkDe8LrcW5hACjzE/view?usp=sharing))
+[Article 2: The ethics of algorithms_key problems and solutions](https://drive.google.com/file/d/1vCp6f2mL4_IaDtGQpkDe8LrcW5hACjzE/view?usp=sharing)
