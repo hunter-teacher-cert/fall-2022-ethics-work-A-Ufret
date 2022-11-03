@@ -9,3 +9,5 @@ make a file week09_seating/consequences.md with link to article
 Optimization + Bonus
 Optimizing translation to give accessibility to individuals who speak other languages have unintended consequences of gender bias because of pronouns having bias based on context (ie: higher paying positions having male pronouns)
 Articles: 
+[Article 1: Assessing Gender Bias in Machine Translation– A Case Study with Google Translate](fall-2022-ethics-work-A-Ufret/week09_seating/Assessing Gender Bias in Machine Translation– A Case Study with Google Translate.pdf)
+[Article 2: The ethics of algorithms_key problems and solutions.pdf](fall-2022-ethics-work-A-Ufret/week09_seating/The ethics of algorithms_key problems and solutions.pdf)
