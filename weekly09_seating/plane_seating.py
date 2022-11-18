@@ -92,15 +92,14 @@ def reserve_seat(seat, name):
   #print(seat)
 
   if seat_map[row][seat_num] == True:
-    print("seat is already full, please choose another seat")
+    print("Selected seat is not available. Please choose another seat.")
     display_map()
   else:
     seat_map[row][seat_num] = True
-    print("You reserved the seat!")
+    print("Seat Reserved!")
     seat_list[seat] = name
 
   return
-
 
 # Handles seat choice, calls display_map(), reserve_seat()
 def seat_chooser():
@@ -176,8 +175,8 @@ create_map()
 reserve_seat("00A", "Ashley Ufret")
 reserve_seat("02A", "Thea Williams")
 reserve_seat("01A", "Jerusha")
-p = Party(["jerusha", "thea", "ashley"], 3, True)
-concierge(["ashley", "thea", "jerusha", "guest"], False)
+p = Party(["Jerusha", "Thea", "Ashley"], 3, True)
+concierge(["Ashley", "Thea", "Jerusha", "Guest"], False)
 print(p)
 print(waitlist)
 print(seat_list)
