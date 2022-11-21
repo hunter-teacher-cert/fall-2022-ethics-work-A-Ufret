@@ -5,7 +5,7 @@
 # consulted: 
 
 class gol(object):
-    """ generated source for class Cgol """
+   
     board = [None]*r
     rows = board.length
     cols = board[0].length
@@ -14,7 +14,7 @@ class gol(object):
 
     @classmethod
     def printBoard(cls, board):
-        """ generated source for method printBoard """
+      
         rows = board.length
         cols = board[0].length
         i = 0
@@ -27,12 +27,12 @@ class gol(object):
 
     @classmethod
     def setCell(cls, board, r, c, val):
-        """ generated source for method setCell """
+      
         board[r][c] = val
 
     @classmethod
     def countNeighbours(cls, board, r, c):
-        """ generated source for method countNeighbours """
+   
         count = 0
         i = r - 1
         while i < r + 2:
@@ -45,7 +45,7 @@ class gol(object):
 
     @classmethod
     def getNextGenCell(cls, board, r, c):
-        """ generated source for method getNextGenCell """
+    
         neighbors = cls.countNeighbours(board, r, c)
         if board[r][c] == 'X' and (neighbors == 2 or neighbors == 3):
             return 'X'
@@ -55,7 +55,7 @@ class gol(object):
 
     @classmethod
     def generateNextBoard(cls, board):
-        """ generated source for method generateNextBoard """
+     
         rows = board.length
         cols = board[0].length
         newBoard = [None]*rows
