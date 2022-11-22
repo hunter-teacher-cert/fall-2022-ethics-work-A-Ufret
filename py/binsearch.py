@@ -32,8 +32,8 @@ list = [2,8,17,26,32,46,55,68,99]
 n = 26 #target_value 
 
 if binsearch(list, n):
-    print("found at ", pos)
-else:
-    return NOT_FOUND
+    print("found at ", pos +1)
+# else:
+#    return NOT_FOUND
 #this is not working properly for n not found will continue to debug
 #I tried adding return statement after the else on line 27 but then it would interrupt the loop of checking for index after not finding target in the middle
